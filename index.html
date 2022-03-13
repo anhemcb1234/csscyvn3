@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Webdemo</title>
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <link rel="stylesheet" href="node_modules/simple-slideshow/src/slideshow.css">
+ 
+    <script src="node_modules/simple-slideshow/src/slideshow.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <input type="checkbox" id="toggle-sidebar" />
+
+    <div class="sidebar"></div>
+
+    <div class="menu m-5">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col">
+            <h1 class="logo fw-800 text-lg text-white">Droow</h1>
+          </div>
+
+          <div class="col d-flex align-item-center justify-content-end">
+            <button class="btn">
+              <label
+                for="toggle-sidebar"
+                class="text-white d-inline-flex align-items-center text-uppercase"
+              >
+                <i class="fa fa-bars me-2"></i>
+                menu</label
+              >
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="content">
+      <div class="banner">
+        <div class="slide-banner">
+          <div class="banner-item">
+            <div class="thumb">
+              <img src="assets/images/bg1.jpg" alt="" />
+            </div>
+
+            <div class="text-box d-flex align-items-center justify-content-start">
+              <div class="container text-white ">
+                <div class="col-sm-9 col-lg-8">
+                  <p class="categories text-white text-uppercase ps-5">Brand</p>
+                  <h4 class="text-xxl fw-700">Time Tag Watch</h4>
+                  <p class="mt-5 ellipsis-3 fw-600 text-md">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Repellendus quo nemo autem recusandae. Ab non voluptatem
+                    cupiditate beatae unde, magnam esse? Suscipit harum deserunt
+                    beatae dicta laboriosam a molestias maiores.
+                  </p>
+                  <button
+                    class="mt-5 px-5 text-white btn btn-lg text-uppercase fw-700"
+                  >
+                    <i class="me-2 fas fa-angle-right"></i>
+                    Purchase now
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="banner-item">
+            <div class="thumb">
+              <img src="assets/images/bg2.jpg" alt="" />
+            </div>
+
+            <div class="text-box d-flex align-items-center">
+              <div class="container text-white">
+                <div class="col-sm-9 col-lg-8">
+                  <p class="categories text-white text-uppercase ps-5">Brand</p>
+                  <h4 class="text-xxl fw-700">Time Tag Watch</h4>
+                  <p class="mt-5 ellipsis-3 fw-600 text-md">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Repellendus quo nemo autem recusandae. Ab non voluptatem
+                    cupiditate beatae unde, magnam esse? Suscipit harum deserunt
+                    beatae dicta laboriosam a molestias maiores.
+                  </p>
+                  <button
+                    class="mt-5 px-5 text-white btn btn-lg fw-700 text-uppercase"
+                  >
+                    <i class="me-2 fas fa-angle-right"></i>
+                    Purchase now
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="banner-item">
+            <div class="thumb">
+              <img src="assets/images/bg3.jpg" alt="" />
+            </div>
+
+            <div class="text-box d-flex align-items-center">
+              <div class="container text-white">
+                <div class="col-sm-9 col-lg-8">
+                  <p class="categories text-white text-uppercase ps-5">Brand</p>
+                  <h4 class="text-xxl fw-700">Time Tag Watch</h4>
+                  <p class="mt-5 ellipsis-3 fw-600 text-md">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Repellendus quo nemo autem recusandae. Ab non voluptatem
+                    cupiditate beatae unde, magnam esse? Suscipit harum deserunt
+                    beatae dicta laboriosam a molestias maiores.
+                  </p>
+                  <button
+                    class="mt-5 px-5 text-white btn btn-lg fw-700 text-uppercase"
+                  >
+                    <i class="me-2 fas fa-angle-right"></i>
+                    Purchase now
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="banner-item">
+            <div class="thumb">
+              <img src="assets/images/bg4.jpg" alt="" />
+            </div>
+
+            <div class="text-box d-flex align-items-center">
+              <div class="container text-white">
+                <div class="col-sm-9 col-lg-8">
+                  <p class="categories text-white text-uppercase ps-5">Brand</p>
+                  <h4 class="text-xxl fw-700">Time Tag Watch</h4>
+                  <p class="mt-5 ellipsis-3 fw-600 text-md">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Repellendus quo nemo autem recusandae. Ab non voluptatem
+                    cupiditate beatae unde, magnam esse? Suscipit harum deserunt
+                    beatae dicta laboriosam a molestias maiores.
+                  </p>
+                  <button
+                    class="mt-5 px-5 text-white btn btn-lg fw-700 text-uppercase"
+                  >
+                    <i class="me-2 fas fa-angle-right"></i>
+                    Purchase now
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container marginper marginQuery">
+        <div class="row d-flex align-items-center">
+            <div class="col-xl-4  marginBB">
+                <div class="head fs-1 fw-bolder mb-5"> 
+                  <p >Hello we are,</p>
+                  <p>Dsn Grid</p>
+                </div>
+                <p class="col-xl-8  opacity-75">Foundedin2000,DsnGridhasbecomeoneofthebestDigitalAgencyinThemeForest.Bluemoneygoingforward,butdeploytoproduction.C-suite.First-orderoptimalstrategiesbuildonacultureofcontributionandinclusionsothoseoptions</p>
+                <p class="fw-700 text rele">SALVADORDALI</p>
+                <p class="opacity-50">DigitalArtisit</p>
+                <div class="col d-flex align-items-center">
+                    <h1 class="size fw-bold">25</h1>
+                    <div class="ms-5">
+                        <p>YEARS OF</p>
+                    <p>DIGITAL EXPERIENCE</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-8 col-md-12 rele">
+                <div class="img ">
+                    <img src="./assets//images/bg5.jpg" alt="">
+                </div>
+                <div class="we fw-bold fs-1 lh-base">
+                    <p >Hello we are,</p>
+                    <p>Dsn Grid</p>
+                    </div>
+            </div>
+        </div>
+    </div>
+    <div class="container mt-5">
+        <div class="row flex-column">
+            <div class="col">
+                <p class="text1 rele mar-l">OUR SERVCIES</p>
+                <h1 class="fw-bold">New Branding Agency</h1>
+            </div>
+            <div class="col d-flex  align-items-center justify-content-center">
+                <div class="col-4 p-4 d-flex flex-column align-items-center justify-content-center mt-5">
+                    <i class="fa-solid sizeIcon fa-lightbulb"></i>
+                    <p class="fw-bolder fs-5-md fs-3 mt-3 textsm mbb">DIGITAL PRODUCTS</p>
+                    <p class="col-12 fs-4 text-center">Web design encompasses many different skills and disciplines in the production of all web.</p>
+                </div>
+                <div class="col-4 p-4 bg-secondary marginB bg-gradient mx-5 d-flex flex-column align-items-center justify-content-center mt-5">
+                    <i class="fa-brands sizeIcon fa-connectdevelop"></i>
+                    <p class="fw-bolder fs-md-5 fs-3 textsm mt-3 mbb">UI-UX DESIGN</p>
+                    <p class="col-12 fs-4 text-center">Web design encompasses many different skills and disciplines in the production of all web.</p>
+                </div>
+                <div class="col-4 p-4 d-flex flex-column align-items-center justify-content-center mt-5">
+                    <i class="fa-solid sizeIcon fa-layer-group"></i>
+                    <p class="fw-bolder fs-5-md fs-3 textsm mt-3 mbb">WEB DEVELOPMENT</p>
+                    <p class="col-12 fs-4 text-center">Web design encompasses many different skills and disciplines in the production of all web.</p>
+                </div>
+            </div>
+        </div>    
+    </div>
+    <div class="container-fluid center mt-5">
+        <div class="row">
+            <div class="col p-0 box-img rele">
+                <img src="./assets/images/bg6.jpg" alt="" class="">
+                <div class="col-4 col-lg-6 col-md-12 content-text px-5">
+                    <p class="fs-1 fw-bold">How is your <br> visual identity?</br></p>
+                    <p class="opacity-75 ms-5 mt-4 fs-4">A system that young people around the world with a club culture and techno enthusiasts feel identified. We generated a simple logo that is the basis for generating a geometric and liquid system.</p>
+                    <button
+                        class="mt-5 px-5 rounded-pill text-white btn btn-lg fw-700 text-uppercase"
+                      >
+                        <i class="me-2 fas fa-angle-right"></i>
+                        Purchase now
+                      </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col">
+          <p class="text1 rele mar-l">OUR SERVCIES</p>
+          <h1 class="fw-bold fs-1">New Branding Agency</h1>
+        </div>
+      </div>  
+    </div>
+    <div class="container-fluid mt-5">
+      <div class="content">
+      <div class="banner">
+        <div class="slide-banner2">
+          <div class="banner-item mx-2">
+            <div class="thumb">
+              <img src="assets/images/bg1.jpg" alt="" />
+            </div>
+
+            <div class="text-box d-flex align-items-end justify-content-end">
+              <div class="container text-white ">
+                <div class="width mb-5 col-sm-9 col-lg-8 d-flex justify-content-center flex-column align-items-center">
+                  <p class="opacity-75 fs-2">FASHION</p>
+                  <p>Bloawshom</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="banner-item mx-2 ">
+            <div class="thumb">
+              <img src="assets/images/bg2.jpg" alt="" />
+            </div>
+
+            <div class="text-box d-flex align-items-end justify-content-end">
+              <div class="container text-white">
+                <div class="width mb-5 col-sm-9 col-lg-8 d-flex justify-content-center flex-column align-items-center">
+                  <p class="opacity-75 fs-2">FASHION</p>
+                  <p>Bloawshom</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="banner-item mx-2">
+            <div class="thumb">
+              <img src="assets/images/bg3.jpg" alt="" />
+            </div>
+
+            <div class="text-box d-flex align-items-end justify-content-end">
+              <div class="container text-white">
+                <div class="width mb-5 col-sm-9 col-lg-8 d-flex justify-content-center flex-column align-items-center">
+                  <p class="opacity-75 fs-2">FASHION</p>
+                  <p>Bloawshom</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="banner-item mx-2">
+            <div class="thumb">
+              <img src="assets/images/bg4.jpg" alt="" />
+            </div>
+
+            <div class="text-box d-flex align-items-end justify-content-end">
+              <div class="container text-white">
+                <div class="width mb-5 col-sm-9 col-lg-8 d-flex justify-content-center flex-column align-items-center">
+                  <p class="opacity-75 fs-2">FASHION</p>
+                  <p>Bloawshom</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class="container-fluid margin-top">
+      <div class="row">
+        <div class="col-4 p-0">
+          <div class="watch">
+            <img src="./assets/images/bg7.jpg" alt="">
+          </div>
+        </div>
+        <div class="col-8 p-0 backg rele">
+          <p class="fs-1 fw-bolder">Time Tag Watch.</p>
+          <p class="fs-3 fw-bolder my-5">Sometimes, we need to check the time, wondering when our work or meeting will finish, without getting caught by others.</p>
+          <p class="opacity-75">To avoid your boss’s staring eye, you should not roll your eyes to check the time. The Time Tag Watch is a consummately appropriate for it. Those tags do the role of the hands of the watch. By rotating the face of the watch not the hands, it gets harder to be damaged. It provides you with experience to feel the time at the end of your finger without damaging your watch.</p>
+          <button class="mt-4">
+            <i class="fa-solid fa-arrow-right"></i><span>LEARN MORE</span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="container paddingl nbg margin-top">
+      <div class="row rele">
+        <div class="col-5 box-content">
+          
+        </div>
+        <div class="col-7  box-content">
+          <p class="col textmd mt-5 fs-4 opacity-75">"The Brief team has been sincerely committed to
+            designing great communication around our projects. Our customers love
+            their
+            creative work - and so do we!"</p>
+          <div class="user-comment d-flex align-items-center">
+            <div class="avatar">
+              <img src="./assets/images/avatar.jpg" alt="">
+            </div>
+            <span>- Helen Ginsberg, CEO of Treasure Island</span>
+          </div>
+        </div>
+        <p class="text-top fw-bold">Feedback from <br>our clients.</br> </p>
+        <p class="text-bottom fw-bold">”</p>
+      </div>
+    </div>
+
+      <div class="container margin-top">
+        <div class="row">
+          <div class="col">
+            <p class="text1 rele mar-l">LATEST NEWS</p>
+            <h1 class="fw-bold fs-1 bigger">Latest and greatest post</h1>
+          </div>
+        </div>    
+        <div class="content mt-5">
+        <div class="banner3">
+          <div class="slide-banner3">
+            <div class="banner-item mx-2">
+              <div class="thumb">
+                <img src="assets/images/bg1.jpg" alt="" />
+              </div>
+              <div class="text-box">
+                <div class="container ">
+                  <div class="width col-sm-9 col-lg-8 p-5">
+                    <p class="fs-5 black">FASHION</p>
+                    <p class="black fs-2 text-size fw-bold">Bloawshom</p>
+                    <p class="opacity-75 ">Simple point-and-shoot digital cameras can give surprising quality when they
+                      have the right lenses and sensors.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="banner-item mx-2">
+              <div class="thumb">
+                <img src="assets/images/bg1.jpg" alt="" />
+              </div>
+              <div class="text-box">
+                <div class="container ">
+                  <div class="width col-sm-9 col-lg-8 p-5">
+                    <p class="fs-5 black">FASHION</p>
+                    <p class="black fs-2 text-size fw-bold">Bloawshom</p>
+                    <p class="opacity-75">Simple point-and-shoot digital cameras can give surprising quality when they
+                      have the right lenses and sensors.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="banner-item mx-2">
+              <div class="thumb">
+                <img src="assets/images/bg1.jpg" alt="" />
+              </div>
+              <div class="text-box">
+                <div class="container ">
+                  <div class="width col-sm-9 col-lg-8 p-5">
+                    <p class="fs-5 black">FASHION</p>
+                    <p class="black fs-2 text-size fw-bold">Bloawshom</p>
+                    <p class="opacity-75">Simple point-and-shoot digital cameras can give surprising quality when they
+                      have the right lenses and sensors.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <p class="text1 rele mar-l">OUR CLIENTS</p>
+            <h1 class="fw-bold fs-1 bigger">Your successful, our reputation</h1>
+          </div>
+        </div>
+        <div class="row margin-top ">
+          <div class="box  d-flex align-items-center justify-content-between">
+            <div class="color-logo col-4 m-auto">
+              <img src="./assets/images/logo/1-light.png" alt="">
+              <div class="info">
+                <i class="fa-solid fa-plus"></i>
+                <div class="contents">
+                  <h5>Google</h5>
+                  <a href="#">www.google.com</a>
+                </div>
+              </div>
+            </div>
+            <div class="color-logo col-4 m-auto">
+              <img src="./assets/images/logo/2-light.png" alt="">
+              <div class="info">
+                <i class="fa-solid fa-plus"></i>
+                <div class="contents">
+                  <h5>Google</h5>
+                  <a href="#">www.google.com</a>
+                </div>
+              </div>
+            </div>
+            <div class="color-logo col-4 m-auto">
+              <img src="./assets/images/logo/3-light.png" alt="">
+              <div class="info">
+                <i class="fa-solid fa-plus"></i>
+                <div class="contents">
+                  <h5>Google</h5>
+                  <a href="#">www.google.com</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-1">
+          <div class="box  d-flex align-items-center justify-content-between">
+            <div class="color-logo col-4 m-auto">
+              <img src="./assets/images/logo/4-light.png" alt="">
+              <div class="info">
+                <i class="fa-solid fa-plus"></i>
+                <div class="contents">
+                  <h5>Google</h5>
+                  <a href="#">www.google.com</a>
+                </div>
+              </div>
+            </div>
+            <div class="color-logo col-4 m-auto">
+              <img src="./assets/images/logo/5-light.png" alt="">
+              <div class="info">
+                <i class="fa-solid fa-plus"></i>
+                <div class="contents">
+                  <h5>Google</h5>
+                  <a href="#">www.google.com</a>
+                </div>
+              </div>
+            </div>
+            <div class="color-logo col-4 m-auto">
+              <img src="./assets/images/logo/6-light.png" alt="">
+              <div class="info">
+                <i class="fa-solid fa-plus"></i>
+                <div class="contents">
+                  <h5>Google</h5>
+                  <a href="#">www.google.com</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid bg-e margin-top">
+        <div class="container">
+          <div class="row c-wap rele align-items-center">
+            <div class="col rele fs-1 hiring">
+              <h5>WE ARE HIRING</h5>
+            </div>
+            <div class="col rele fw-bold d-flex justify-content-end black">
+              <h5>
+                Dare and contact us immediately!
+            </h5>
+            </div>
+          </div>    
+        </div>
+      </div>
+      <div class="container-fluid bg 
+       margin-top">
+          <div class="container">
+            <div class="row">
+              <div class="col-3">
+                <img src="./assets/images/logo/logo-dark.png" alt="">
+                <div class="icom mt-3 fs-4">
+                  <i class="fa-brands fa-facebook-f"></i>
+                  <i class="fa-brands fa-behance-square"></i>
+                  <i class="fa-brands fa-instagram"></i>
+                  <i class="fa-brands fa-twitter"></i>
+                </div>
+              </div>
+              <div class="col-3 rtext">
+                <p class="fw-bold fs-4">NAVIGATION</p> 
+                <ul>
+                  <li class="opacity-75"><a href="#">PORTFOLIO</a></li>
+                  <li class="opacity-75"><a href="#">ABOUT
+                  </a></li>
+                  <li class="opacity-75"><a href="#">NEWS</a></li>
+                  <li class="opacity-75"><a href="#">CONTACT</a></li>
+                </ul>
+              </div>
+              <div class="col-3 rtext">
+                <p class="fw-bold fs-4">CONTACT</p> 
+                <ul>
+                  <li class="opacity-75"><a href="#"> <span class="fw-bold">T</span>    : +001 225 3351</a></li>
+                  <li class="opacity-75"><a href="#"> <span class="fw-bold">F</span>    : +001 225 3351</a></li>
+                  <li class="opacity-75"><a href="#"> <span class="fw-bold">E</span>    : INFO@DSNGRID.COM</a></li>
+                </ul>
+              </div>
+              <div class="col-3 rtext">
+                <p class="fw-bold fs-4">ADDRESS</p>
+                <p class="opacity-75">EL-MAHALLA EL-KUBRA 37
+                  1776 DAMIETTA
+                  EGYPT</p>
+              </div>
+            </div>
+          </div>
+      </div>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      type="text/javascript"
+      src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+      integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+      integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+        .slideshow {
+            width: 1024px;
+            height: 768px;
+        }
+      </style> 
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

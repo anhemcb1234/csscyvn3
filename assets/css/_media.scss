@@ -1,0 +1,124 @@
+@media (max-width: 1200px) {
+    
+}
+@media (max-width: 992px) {
+    .watch img {
+        height: 80vh !important;
+    }
+    .text-bottom {
+        font-size: 218px !important;
+    }
+
+    .text-top {
+        top:-25% !important;
+    }
+    .content-text {
+        right: 10% !important;
+    }
+    .text-size {
+        font-size: 25px !important;
+    }
+    .marginQuery {
+        margin-top: 35% !important;
+
+        div .rele {
+            padding: 0;
+            .we {
+                top: -7%;
+                left: -13%;
+                font-size: 23px !important;
+            }
+        }
+        .text::after {
+            width: 60px !important;
+        }
+    }
+    .text1::after {
+        left: -10% !important;
+        width: 80px !important;
+    }
+
+    .container.text-white {
+        margin: 0px 94px;
+    }
+    .banner .slide-banner .banner-item .text-box .categories:after {
+        width: 43% !important;
+        left: -2px !important;
+    }
+}
+@media (max-width: 768px) {
+    .marginQuery {
+        margin-top: 50% !important;
+        .head {
+            display: block !important;
+        }
+        div .rele {
+            padding: 0;
+            .we {
+                display: none;
+            }
+        }
+        .text::after {
+            width: 60px !important;
+            right: 76%;
+        }
+        .text::before {
+            right: 74%;
+        }
+    }
+    .marginBB {
+        margin-bottom: 50px;
+    }
+    .text1::after {
+        left: -10% !important;
+        width: 59px !important;
+    }
+    .text-top {
+        top: -5% !important;
+        font-size: 26px !important;
+    }
+    .text-bottom {
+        font-size: 160px !important;
+        bottom: -70% !important;
+        left: -3% !important;
+    } 
+    .textsm {
+        font-size: 12px !important;
+    }   
+    .marginB {   
+        margin-bottom: 15%;
+    }
+    .content-text {
+        right: 0% !important;
+        background-color: #000 !important;
+        position: absolute;
+        top: 85% !important;
+        color: #fff;
+        right: 0.6%;
+        height: 66%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        will-change: scroll-position;
+    }
+    .center {
+        margin-bottom: 60%;
+    text-align: center;
+    padding: 0;
+    }
+    .watch img {
+        height: 60vh !important;
+    }
+    .backg button {
+        width: 46% !important;
+    }
+    .textmd {
+        font-size: 16px !important;
+    }
+    .col-md-12 {
+
+        width: 100% !important;
+    }
+}
+
+
